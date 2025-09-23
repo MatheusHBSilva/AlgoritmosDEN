@@ -289,7 +289,7 @@ def main():
             model = ajustar_modelo(df_real)
             mostrar_equacao(model)
 
-            grafico = input("\nDeseja ver o gráfico").lower()
+            grafico = input("\nDeseja ver o gráfico? (s/n)").lower()
             if(grafico == "s"):
                 construir_grafico(model)
 
